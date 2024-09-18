@@ -2,7 +2,6 @@
 # Pesquisa sobre conceitos em NODE.JS
 
 ### Model:
-**O que é: **
 # O que é um Model em Node.js?
 
 Um **model** é uma parte essencial da arquitetura de aplicações em Node.js, especialmente quando se utiliza o padrão MVC (Model-View-Controller). Ele representa a camada de dados da aplicação e desempenha várias funções importantes:
@@ -40,7 +39,6 @@ Além de gerenciar dados, os models podem conter métodos que implementam a lóg
 
 Em resumo, os models em Node.js são fundamentais para estruturar e gerenciar dados de maneira eficaz. Eles promovem uma organização clara do código, facilitam a manutenção da aplicação e asseguram que as regras de validação e lógica de negócios sejam aplicadas consistentemente.
 
-**Como funciona: **
 # Como Funcionam os Models em Node.js
 
 Os **models** em Node.js são componentes cruciais que definem a estrutura e a lógica de dados em uma aplicação. Eles são parte fundamental da arquitetura de software, especialmente quando se utiliza o padrão MVC (Model-View-Controller). Aqui está uma visão teórica de como os models funcionam:
