@@ -59,6 +59,7 @@ Um controller em Node.js normalmente contém funções para as seguintes ações
 ## Conclusão
 
 REST (Representational State Transfer) é um estilo arquitetural para construir APIs que usam operações HTTP como GET, POST, PUT e DELETE para manipular recursos. Em aplicações Node.js, REST é comumente implementado usando frameworks como Express.js.
+
 # CORS no Node.js
 CORS (Cross-Origin Resource Sharing) é uma política de segurança que regula como recursos da web podem ser compartilhados entre diferentes origens (domínios). Ele é essencial para evitar ataques, como o Cross-Site Request Forgery (CSRF), garantindo que apenas domínios autorizados possam acessar os dados da sua API.
 ## Como Funciona?
