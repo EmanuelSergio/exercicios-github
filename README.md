@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 # Pesquisa sobre conceitos em NODE.JS
 
 ### Model:
