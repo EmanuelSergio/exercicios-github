@@ -1,4 +1,4 @@
-# Controller com Node.js
+# Pesquisa sobre conceitos em NODE.JS
 
 ## Introdução
 
@@ -33,6 +33,3 @@ Um controller em Node.js normalmente contém funções para as seguintes ações
 - **Atualizar**: Modificar um registro existente.
 - **Excluir**: Remover um registro.
 
-## Conclusão
-
-Os controllers são essenciais para o desenvolvimento de aplicações web com Node.js. Ao implementar esse padrão, você garante que sua aplicação seja organizada, fácil de manter e escalável, promovendo um fluxo de trabalho mais eficiente e colaborativo.
