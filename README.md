@@ -1,5 +1,7 @@
 # Controller com Node.js
 
+## Controller
+
 ## Introdução
 
 O padrão Controller é um componente crucial na arquitetura de aplicações web, especialmente em projetos construídos com Node.js. Ele atua como um intermediário entre as requisições do cliente e a lógica de negócios, proporcionando uma organização clara e fácil de manter.
@@ -11,6 +13,24 @@ Os controllers desempenham várias funções importantes:
 1. **Gerenciar a Lógica de Negócios**: Contêm as funções que processam requisições e aplicam regras de negócio.
 
 2. **Interagir com Modelos**: Comunicando-se com os modelos da aplicação, que representam os dados e a lógica de acesso ao banco de dados, para operações de CRUD (Create, Read, Update, Delete).
+
+
+   ### Exemplo de Função de Criação
+
+   Aqui está um exemplo de uma função para criar um novo usuário:
+
+   ```javascript
+   const Usuario = require('../models/usuario');
+
+   exports.criarUsuario = async (req, res) => {
+       try {
+           const novoUsuario = new Usuario(req.body);
+           await novoUsuario.save();
+           res.status(201).json(novoUsuario);
+       } catch (error) {
+           res.status(400).json({ message: 'Erro ao criar usuário', error });
+       }
+   };
 
 3. **Retornar Respostas ao Cliente**: Enviam as respostas apropriadas de volta ao cliente, geralmente em formato JSON.
 
