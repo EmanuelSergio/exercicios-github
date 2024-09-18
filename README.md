@@ -131,7 +131,12 @@ Um controller em Node.js normalmente contém funções para as seguintes ações
 - **Excluir**: Remover um registro.
 
 ##
+### Service:
 
+**O que é: **Os services referem-se a uma arquitetura onde as funcionalidades da aplicação são divididas em módulos ou componentes separados. Eles encapsulam as operações relacionadas a um determinado recurso ou entidade, fornecendo uma abstração para as operações de acesso a dados e implementando regras de negócio. 
+
+**Como funciona: **
+##
 # REST em Aplicações Node.js
 
 REST (Representational State Transfer) é um estilo arquitetural para construir APIs que usam operações HTTP como GET, POST, PUT e DELETE para manipular recursos. Em aplicações Node.js, REST é comumente implementado usando frameworks como Express.js.
