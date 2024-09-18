@@ -132,7 +132,7 @@ Um controller em Node.js normalmente contém funções para as seguintes ações
 
 
 
-### Service:
+## Service:
 
 ## O que é:
 Os *Services* referem-se a uma arquitetura onde as funcionalidades da aplicação são divididas em módulos ou componentes separados. Eles encapsulam as operações relacionadas a um determinado recurso ou entidade, fornecendo uma abstração para as operações de acesso a dados e implementando regras de negócio. 
