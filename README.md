@@ -130,10 +130,10 @@ Um controller em Node.js normalmente contém funções para as seguintes ações
 - **Atualizar**: Modificar um registro existente.
 - **Excluir**: Remover um registro.
 
-##
+
 
 # REST em Aplicações Node.js
-## Conclusão
+
 
 REST (Representational State Transfer) é um estilo arquitetural para construir APIs que usam operações HTTP como GET, POST, PUT e DELETE para manipular recursos. Em aplicações Node.js, REST é comumente implementado usando frameworks como Express.js.
 
