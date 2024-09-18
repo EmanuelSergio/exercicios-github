@@ -77,7 +77,7 @@ Os models podem incluir métodos personalizados que encapsulam a lógica de neg�
 
 Em resumo, os models em Node.js são fundamentais para a gestão de dados em uma aplicação. Eles permitem a definição clara da estrutura dos dados, facilitam operações de CRUD, garantem a validação de dados e permitem a implementação de lógica de negócios, resultando em um código mais organizado e fácil de manter.
 
-## Controller
+# Controller
 
 ## Introdução
 
@@ -132,7 +132,7 @@ Um controller em Node.js normalmente contém funções para as seguintes ações
 
 
 
-## Service:
+# Service:
 
 ## O que é:
 Os *Services* referem-se a uma arquitetura onde as funcionalidades da aplicação são divididas em módulos ou componentes separados. Eles encapsulam as operações relacionadas a um determinado recurso ou entidade, fornecendo uma abstração para as operações de acesso a dados e implementando regras de negócio. 
