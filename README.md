@@ -136,4 +136,6 @@ Um controller em Node.js normalmente contém funções para as seguintes ações
 
 REST (Representational State Transfer) é um estilo arquitetural para construir APIs que usam operações HTTP como GET, POST, PUT e DELETE para manipular recursos. Em aplicações Node.js, REST é comumente implementado usando frameworks como Express.js.
 
-Uma API REST define endpoints (URLs) que representam recursos e são acessados de forma stateless, significando que cada requisição é independente e contém todas as informações necessárias. Os dados são geralmente enviados e recebidos no formato JSON.
+Uma API REST define endpoints (URLs) que representam recursos e são acessados de forma stateless, significando que cada requisição é independente e contém todas as informações necessárias. Os dados são geralmente enviados e recebidos no formato JSON. 
+
+## dasdasdasdasd
