@@ -131,11 +131,19 @@ Um controller em Node.js normalmente contém funções para as seguintes ações
 - **Excluir**: Remover um registro.
 
 ##
+
 ### Service:
 
-**O que é: **Os services referem-se a uma arquitetura onde as funcionalidades da aplicação são divididas em módulos ou componentes separados. Eles encapsulam as operações relacionadas a um determinado recurso ou entidade, fornecendo uma abstração para as operações de acesso a dados e implementando regras de negócio. 
+## O que é:
+Os *Services* referem-se a uma arquitetura onde as funcionalidades da aplicação são divididas em módulos ou componentes separados. Eles encapsulam as operações relacionadas a um determinado recurso ou entidade, fornecendo uma abstração para as operações de acesso a dados e implementando regras de negócio. 
+> Normalmente, cada serviço é implementado em um arquivo separado, por exemplo, um serviço de usuários poderia estar em `servicoUsuario.js`, resultando em um código mais organizado e fácil de manter.
 
-**Como funciona: **
+## Como funciona:
+- **Encapsulamento de Lógica**: Cada serviço contém funcionalidades específicas, como manipulação de usuários, interação com bancos de dados ou integrações com APIs externas.
+- **Separação de Preocupações**: A lógica de negócios é mantida separada do restante da aplicação, como rotas e interfaces.
+- **Chamadas de Funções**: Os serviços podem ser importados e utilizados em outros módulos, como controladores de rotas, permitindo que a lógica de negócios seja facilmente acessada.
+- **APIs**: Serviços podem expor métodos através de APIs, permitindo que diferentes partes da aplicação se comuniquem via HTTP.
+
 ##
 # REST em Aplicações Node.js
 ## Conclusão
