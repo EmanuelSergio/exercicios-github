@@ -53,7 +53,7 @@ Um controller em Node.js normalmente contém funções para as seguintes ações
 - **Atualizar**: Modificar um registro existente.
 - **Excluir**: Remover um registro.
 
-==========================
+##
 
 # REST em Aplicações Node.js
 
